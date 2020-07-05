@@ -8,8 +8,8 @@ module.exports = {
     // 出力ファイル名
     filename: "main.js"
   },
-  // development に設定するとソースマップ有効でJSファイルが出力される
-  mode: "development",
+  // productiont に設定すると最適化されてJSファイルが出力される
+  mode: "production",
   // ローカル開発用環境を立ち上げる
   // 実行時にブラウザが自動的に localhost を開く
   devServer: {
